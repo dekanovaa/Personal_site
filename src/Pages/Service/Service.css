@@ -1,0 +1,27 @@
+.service__text{
+    font-size: 16px;
+    color: rgb(63, 63, 244);
+}
+.service__title{
+    font-size: 50px;
+    color: black;
+    padding-bottom: 50px;
+}
+.service{
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.service__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service__item{
+    width: 32%;
+    height: 500px;
+    background-color:aliceblue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(63, 63, 244);
+
+}

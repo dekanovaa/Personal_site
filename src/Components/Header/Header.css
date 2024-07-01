@@ -1,0 +1,43 @@
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__img{
+    width: 500px;
+    height: 500px;
+}
+.header__title{
+font-size: 50px;
+line-height: 50px;
+max-width: 500px;
+font-weight: 700;
+}
+span{
+    color: rgb(63, 63, 244);
+}
+.header__text{
+    font-size: 16px;
+    max-width: 500px;
+    line-height: 24px;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    font-weight: 500;
+}
+.header{
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+.header__subtext{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.header__wrapper{
+    display: flex;
+    gap: 20px;
+}
+.fa-github,.fa-telegram,.fa-linkedin{
+    font-size: 40px;
+    color:rgb(63, 63, 244) ;
+}
