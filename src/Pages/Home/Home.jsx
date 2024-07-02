@@ -1,8 +1,10 @@
 import Footer from '../../Components/Footer/Footer'
 import Header from '../../Components/Header/Header'
 import Navbar from '../../Components/Navbar/Navbar'
-import '../../Pages/Contact/Contact.css'
-import '../../Pages/Portfolio/Portfolio.css'
+import Service from '../../Pages/Service/Service'
+import Portfolio from '../../Pages/Portfolio/Portfolio'
+import Contact from '../../Pages/Contact/Contact'
+import Resume from '../../Pages/Resume/Resume'
 import './Home.css'
 
 function Home() {
@@ -12,7 +14,11 @@ function Home() {
     <div className='home'>
         <Navbar/>
         <Header/>
-    <Footer/>
+        <Service/>
+        <Portfolio/>
+        <Resume/>
+        <Contact/>
+        <Footer/>
     </div>
   )
 }

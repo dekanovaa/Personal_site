@@ -16,10 +16,10 @@ function Footer() {
           <Link to='/Contact' className='footer__link'>Contact</Link>
             </li>
             <li className='footer__subitem'>
-            <a className='footer__link' href="#"><i id="icon" class="fa-brands fa-github"></i></a>
-            <a className='footer__link' href="#"><i id="icon" class="fa-brands fa-telegram"></i></a>
+            <a className='footer__link' href="https://github.com/dekanovaa"><i id="icon" class="fa-brands fa-github"></i></a>
+            <a className='footer__link' href="https://t.me/frontend_knowledge1"><i id="icon" class="fa-brands fa-telegram"></i></a>
             <a className='footer__link' href="#"><i id="icon" class="fa-brands fa-linkedin"></i></a>
-            <a className='footer__link' href="#"><i id="icon" class="fa-brands fa-instagram"></i></a>
+            <a className='footer__link' href="https://www.instagram.com/dekanovasevinch_"><i id="icon" class="fa-brands fa-instagram"></i></a>
             </li>
             <p className='footer__text'>Dekanova Sevinch</p>
            </ul>

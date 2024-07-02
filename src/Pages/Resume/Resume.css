@@ -1,11 +1,12 @@
 .resume{
     padding-top: 150px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 .resume__title{
     text-align: center;
     font-size: 30px;
     padding-bottom: 20px;
+    background-color: white;
 }
 .resume__row{
     text-align: center;
@@ -14,36 +15,46 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 600px;
+    background-color: white;
 }
 .resume__text{
     font-size: 16px;
     font-weight: 500;
     max-width: 800px;
     line-height: 24px;
+    background-color: white;
 }
 .resume__name{
     font-size:22px;
     font-weight: 600;
     padding-top: 30px;
+    background-color: white;
 }
 .resume__subtext{
     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
     padding-top: 10px;
+    background-color: white;
 }
 .resume__span{
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: black;
+    background-color: white;
 }
 .resume__container{
     width: 1000px;
     padding: 25px;
-    box-shadow: 3px 3px 10px rgb(200, 199, 199);
+    box-shadow: 3px 3px 10px rgb(63, 63, 244);
+    background-color: white;
 }
 .resume__hr{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.fa-download{
+    font-size: 24px;
+    background-color: white;
 }

@@ -8,7 +8,7 @@
     padding-bottom: 50px;
 }
 .service{
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
     padding-bottom: 50px;
 }
@@ -19,9 +19,25 @@
 }
 .service__item{
     width: 32%;
-    height: 500px;
-    background-color:aliceblue;
+    height: 400px;
+    background-color:white;
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgb(63, 63, 244);
+    padding: 40px;
 
+}
+.fa-mobile,.fa-html5,.fa-js{
+    font-size: 50px;
+    color: rgb(63, 63, 244);
+}
+.service__name{
+    font-size: 26px;
+    padding-top: 25px;
+    background-color: white;
+    padding-bottom: 15px;
+}
+.service__subtext{
+    font-size: 16px;
+    line-height: 24px;
+    background-color: white;
 }

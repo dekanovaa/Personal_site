@@ -10,18 +10,13 @@ import img8 from '../../assets/img8.jpg'
 import img9 from '../../assets/img9.jpg'
 import img10 from '../../assets/img10.jpg'
 import img11 from '../../assets/img11.jpg'
-import Navbar from '../../Components/Navbar/Navbar'
-import Footer from '../../Components/Footer/Footer'
-import { Link } from 'react-router-dom'
-
 
 function Portfolio() {
- 
 
   return (
     <>
-    <Navbar/>
-    <div className='portfolio'>
+    <hr />
+    <div className='portfolio' id='portfolio'>
       <div className='container portfolio__container'>
       <p className='portfolio__text'>YOU CAN SEE MY WORK BY CLICKING THE LINKS</p>
         <h1 className='portfolio__title'>My Portfolio</h1>
@@ -44,9 +39,9 @@ function Portfolio() {
           <img className='portfolio__img' src={img8} alt="port" />
           <img className='portfolio__img' src={img9} alt="port" />
         </div>
+        <a className='portfolio__link' href="https://github.com/dekanovaa">Explore More</a>
       </div>
     </div>
-    <Footer/>
     </>
   )
 }

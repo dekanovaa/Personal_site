@@ -6,6 +6,7 @@
     text-decoration: none;
     font-family: sans-serif;
     scroll-behavior: smooth;
+    background-color:aliceblue;
 }
 .container{
     max-width: 1200px;
