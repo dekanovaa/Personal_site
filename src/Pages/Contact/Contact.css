@@ -58,3 +58,68 @@ textarea{
     box-shadow: 3px 3px 10px grey;
     border: none;
 }
+@media(max-width:1120px){
+    .container{
+      width: 1000px;
+    }
+}
+@media(max-width:1020px){
+    .container{
+      width: 900px;
+    }
+}
+@media(max-width:920px){
+    .container{
+      width: 800px;
+    }
+}
+@media(max-width:820px){
+    .container{
+      width: 700px;
+    }
+}
+@media(max-width:720px){
+    .container{
+      width: 600px;
+    }
+    form{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 3px 3px 10px rgb(63, 63, 244);
+    }
+    .contact{
+        padding-top: 60px;
+    }
+}
+@media(max-width:620px){
+    .container{
+      width: 500px;
+    }
+}
+@media(max-width:520px){
+    .container{
+      width: 400px;
+    }
+    .contact__title{
+        font-size: 36px;
+    }
+    .contact{
+        padding-top: 30px;
+    }
+    form{
+        padding: 10px;
+        border-radius: 10px;
+    }
+    label{
+        font-size: 14px;
+    }
+}
+@media(max-width:420px){
+    .container{
+      width: 98%;
+    }
+}
